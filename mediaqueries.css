@@ -21,6 +21,14 @@
     padding-bottom: 50px;
   }
 }
+@media screen and (max-width: 600px) {
+  body {
+    background-size: 100vw 80vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 200px;
+  }
+}
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
