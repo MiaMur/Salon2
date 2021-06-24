@@ -24,6 +24,7 @@
 @media screen and (max-width: 600px) {
   body {
     background-color:rgb(233, 233, 240);
+    background:none;
   }
 }
 @media screen and (min-width: 800px) {
