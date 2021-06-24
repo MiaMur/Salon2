@@ -55,4 +55,7 @@
   .feet {
     width: 100%;
   }
+  body{
+    background-color: #bdbdbd;
+  }
 }
