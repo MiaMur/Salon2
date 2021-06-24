@@ -12,7 +12,9 @@
   scroll-margin-top: -300px;
 }
 body {
-  background: url(images.salon/inside\ salon.jpg) fixed;
+  background-image: url(images.salon/inside\ salon.jpg) fixed;
+  background-position:fixed;
+  
 }
 #top-nav {
   /*was topnav*/
