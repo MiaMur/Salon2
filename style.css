@@ -84,30 +84,6 @@ li {
   font-size: 15px;
   visibility: hidden;
 }
-
-.topnav {
-  position: fixed;
-  background-color: #0a0f0f;
-  width: 100%;
-  font-family: Niconne;
-  font-size: 25px;
-  z-index: 2;
-  overflow: hidden;
-
-  /* width of entire menu bar*/
-}
-.topnav a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  padding: 14px 16px;
-}
-
-.topnav a:hover {
-  background: #555;
-  color: lightgrey;
-  transition: 1s;
-}
 .logo {
   border: 3px solid black;
   padding: 12px;
@@ -244,7 +220,7 @@ hr {
 .sections {
   margin-top: 300px;
   display: inline-block;
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
