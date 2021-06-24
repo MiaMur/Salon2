@@ -12,9 +12,7 @@
   scroll-margin-top: -300px;
 }
 body {
-  background-image: url(images.salon/inside\ salon.jpg);
-  background-attachment:fixed;
-  background-repeat:no-repeat;
+  background: url(images.salon/inside\ salon.jpg) top center / 90vw 100bh fixed;
 }
 #top-nav {
   /*was topnav*/
