@@ -23,7 +23,7 @@
 }
 @media screen and (max-width: 600px) {
   body {
-    background: url(images.salon/inside\salon.jpg) top center fixed;
+    background-color:#dbdbdb;
   }
 }
 @media screen and (min-width: 800px) {
