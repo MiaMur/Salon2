@@ -1,4 +1,4 @@
-@media screen and(max-width: 1365px) {
+@media screen and (max-width: 1365px) {
   .feet,
   #left-foot,
   #right-foot {
@@ -21,7 +21,12 @@
     padding-bottom: 50px;
   }
 }
-@media screen and(min-width: 800px) {
+@media screen and (max-width: 600px) {
+  body {
+    background: url(images.salon/inside\salon.jpg) top center fixed;
+  }
+}
+@media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
     margin: 0 auto;
@@ -51,11 +56,8 @@
   }
 }
 
-@media screen and(max-width: 660px) {
+@media screen and (max-width: 660px) {
   .feet {
     width: 100%;
-  }
-  body{
-    background-color: #bdbdbd;
   }
 }
