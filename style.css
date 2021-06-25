@@ -215,6 +215,7 @@ hr {
   float: right;
   width: 20vw;
   background-color: rgba(0, 0, 0, 0.4);
+  display:none;
 }
 .stylist-names-menu {
   min-width: 200px;
