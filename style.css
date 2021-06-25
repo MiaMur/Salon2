@@ -20,7 +20,6 @@ body {
   position: fixed;
   z-index: 5;
   width: 100%;
-  top: 0;
 }
 .nav-header {
   display: flex;
@@ -84,6 +83,30 @@ li {
 .menu-icon {
   font-size: 15px;
   visibility: hidden;
+}
+
+.topnav {
+  position: fixed;
+  background-color: #0a0f0f;
+  width: 100%;
+  font-family: Niconne;
+  font-size: 25px;
+  z-index: 2;
+  overflow: hidden;
+
+  /* width of entire menu bar*/
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  background: #555;
+  color: lightgrey;
+  transition: 1s;
 }
 .logo {
   border: 3px solid black;
