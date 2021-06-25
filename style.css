@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 #promo,
 #book,
 #bio,
 #brand {
-  scroll-margin-top: -300px;
+  scroll-margin-top: -250px;
 }
 body {
   background: url(images.salon/inside\ salon.jpg) top center / 90% 100% fixed;
@@ -123,7 +124,7 @@ hr {
   width: 200px;
   margin: auto;
 }
-.brand-header {
+.header {
   color: rgb(0, 255, 255, 0.8);
   font-family: "Viaoda Libre", cursive;
   text-align: center;
@@ -165,13 +166,17 @@ hr {
   color: red;
   cursor: crosshair;
 }
+.bio-header {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
 .left-bio {
   display: inline-flex;
+  width: 90vw;
   border: solid 2px white;
 }
 .bio-left-section {
   background-color: rgba(0, 0, 0, 0.7);
-  border: 2px solid yellow;
   margin: auto;
   border-radius: 1px;
   width: 60vw;
@@ -189,56 +194,57 @@ hr {
   line-height: 25px;
   letter-spacing: 1px;
   font-size: 1rem;
-  padding: 2em;
-  padding-bottom: 1rem;
+  padding: 2rem 4rem 2rem 4rem;
   text-align: left;
   display: inline-block;
   color: rgb(233, 231, 231);
 }
 .img-gallery-stylist1 {
-  margin-left: 20px;
-  border: 0.5px rgb(241, 241, 241, 0.5) outset;
   box-shadow: 0 5px 10px rgba(0, 0, 0.5);
   border-radius: 2px;
+
+  width: 100%;
+  text-align: center;
 }
 .img-gallery-item {
   width: 10em;
   height: 10em;
   padding: 2px;
-  border: 1px rgba(0, 0, 0, 0.4) solid;
+
+  text-align: center;
 }
-.stylist-names-menu,
+/*.stylist-names-menu,
 .img-gallery-stylist1 {
   display: inline-block;
-}
+}*/
 .sidebar {
-  display: inline;
-  float: right;
-  width: 20vw;
+  display: inline-block;
+  width: 90vw;
+  text-align: center;
+  margin: auto;
   background-color: rgba(0, 0, 0, 0.4);
-  display: none;
 }
-.stylist-names-menu {
-  min-width: 200px;
-}
+
 .stylist-names-menu a {
   font-family: Niconne;
   color: rgb(241, 238, 238);
   font-size: 1.5rem;
+  width: 300px;
+  padding: 10px;
   letter-spacing: 3px;
-  line-height: 4rem;
+  line-height: 2rem;
   transition: ease-in-out 0.25s;
+  display: inline-block;
 }
 
-.sidebar li {
+.sidebar a {
   list-style-type: none;
   text-decoration: underline;
   text-align: center;
   padding: 10px;
   border: 1px solid rgb(241, 238, 238);
-  align-items: center;
 }
-.sidebar li a:hover {
+.sidebar a:hover {
   color: #a7a7a7;
 }
 .sections {
@@ -249,9 +255,8 @@ hr {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 50px;
-  border: 1px solid green;
 }
-/*--------shadows start---------*/
+
 #bio {
   padding-top: 100px;
 }
@@ -274,7 +279,6 @@ hr {
   width: 100%;
   position: relative;
   margin: 2px;
-  border: 1px blue solid;
   display: inline-block;
   text-align: center;
 }
@@ -325,6 +329,7 @@ hr {
 }
 #left-foot {
   text-align: left;
+  overflow-y: hidden;
   /*display:inline-block;*/
 }
 #right-foot {
