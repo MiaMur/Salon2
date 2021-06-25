@@ -249,6 +249,7 @@ hr {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 50px;
+  border:1px solid red;
 }
 /*--------shadows start---------*/
 #portrait {
