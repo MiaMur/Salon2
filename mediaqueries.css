@@ -23,9 +23,16 @@
 }
 @media screen and (max-width: 600px) {
   body {
-    background-size: 100vw 100vh;
+    /*background-size: 100vw 100vh;
     background-repeat: no-repeat;
-    background-position: fixed;
+    background-position: fixed;*/
+    background: url(images.salon/inside\ salon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
     
   }
   .sections{
