@@ -174,9 +174,6 @@ hr {
   border: 0.25px solid rgb(53, 0, 0);
   border-radius: 1px;
 }
-.sidebar {
-  width: 20vw;
-}
 
 #portrait,
 .img-gallery-item,
@@ -216,6 +213,7 @@ hr {
 .sidebar {
   display: inline;
   float: right;
+  width: 20vw;
   background-color: rgba(0, 0, 0, 0.4);
 }
 .stylist-names-menu {
@@ -244,7 +242,7 @@ hr {
 .sections {
   margin-top: 300px;
   display: inline-block;
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
