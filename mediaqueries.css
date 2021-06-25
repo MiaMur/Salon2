@@ -32,7 +32,7 @@
     margin: 0;
   }
   .sidebar {
-    width: 100%;
+    width: 100vw;
   }
   .bio-left-section {
     width: 100vw;
