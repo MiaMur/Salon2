@@ -22,12 +22,18 @@
   }
 }
 @media screen and (max-width: 600px) {
-  body{
+  /*body{
     background:none;
-  }
+  }*/
   .sections{
     position:relative;
     width:100vw;
+  }
+    .feet {
+    width: 100vw;
+  }
+    body {
+    background: url(images.salon/inside\ salon.jpg) top center / 90% 100% scroll;
   }
 
 }
@@ -58,11 +64,5 @@
 
   .links a:hover {
     padding: 0;
-  }
-}
-
-@media screen and (max-width: 660px) {
-  .feet {
-    width: 100vw;
   }
 }
