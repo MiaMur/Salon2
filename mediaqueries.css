@@ -28,8 +28,6 @@
   .sections {
     position: relative;
     width: 100vw;
-  }
-  section {
     padding: 0;
     margin: 0;
   }
