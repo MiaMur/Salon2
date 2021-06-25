@@ -21,7 +21,7 @@
     padding-bottom: 50px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   /*body{
     background:none;
   }*/
@@ -57,6 +57,7 @@
     height: auto;
     z-index: -100;
     margin: 0;
+    scroll-behavior:unset;
   }
 }
 @media screen and (min-width: 800px) {
