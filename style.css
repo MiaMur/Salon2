@@ -12,7 +12,7 @@
   scroll-margin-top: -300px;
 }
 body {
-  background-image: url(images.salon/inside\ salon.jpg) top center / 90% 100% fixed;
+  background: url(images.salon/inside\ salon.jpg) top center / 90% 100% fixed;
 }
 #top-nav {
   /*was topnav*/
@@ -107,7 +107,7 @@ hr {
   font-size: 30px;
 }
 .brand-image {
-  width: 45vw;
+  width: 45%;
   height: auto;
   display: block;
   margin: auto;
