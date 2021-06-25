@@ -28,6 +28,9 @@
     background-position: fixed;
     
   }*/
+  .section{
+    position:relative;
+    width:600px;
 }
 @media screen and (min-width: 800px) {
   .nav-center {
