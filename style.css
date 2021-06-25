@@ -20,6 +20,7 @@ body {
   position: fixed;
   z-index: 5;
   width: 100%;
+  top: 0;
 }
 .nav-header {
   display: flex;
@@ -107,7 +108,7 @@ hr {
   font-size: 30px;
 }
 .brand-image {
-  width: 45%;
+  width: 45vw;
   height: auto;
   display: block;
   margin: auto;
@@ -219,12 +220,12 @@ hr {
 }
 .sections {
   margin-top: 300px;
-  display: block;
-  width: 100vw;
+  display: inline-block;
+  width: 100%;
   height: auto;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  
+  padding: 50px;
 }
 /*--------shadows start---------*/
 #portrait {
