@@ -22,15 +22,17 @@
   }
 }
 @media screen and (max-width: 600px) {
-  /*body {
+  body {
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-position: fixed;
     
-  }*/
-  .section{
+  }
+  .sections{
     position:relative;
     width:600px;
+  }
+
 }
 @media screen and (min-width: 800px) {
   .nav-center {
