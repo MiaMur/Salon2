@@ -58,8 +58,8 @@
     padding: 10px;
   }
   .stylist-header {
-    width: 300px;
-    display: inline-block;
+    width: 250px;
+    /*display: inline-block;*/
   }
   .left-bio {
     margin: 0;
