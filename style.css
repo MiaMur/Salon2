@@ -11,10 +11,10 @@
   scroll-margin-top: -250px;
 }
 #bio {
-  scroll-margin-top: -300px;
+  scroll-margin-top: -205px;
 }
 #brand {
-  scroll-margin-top: -200px;
+  scroll-margin-top: -100px;
 }
 #book {
   margin-bottom: 200px;
@@ -25,10 +25,13 @@ body {
 }
 #top-nav {
   /*was topnav*/
-  background: black;
+  background: rgb(10, 15, 15);
   position: fixed;
   z-index: 5;
   width: 100%;
+}
+.back-to-stylists {
+  text-decoration: underline;
 }
 
 .nav-header {
@@ -171,10 +174,8 @@ hr {
 }
 .brand-blurb {
   color: rgb(233, 231, 231);
-
   word-spacing: 4px;
   width: 100%;
-
   border-radius: 5px;
   padding: 15px 30px 15px 30px;
 
@@ -185,7 +186,6 @@ hr {
   max-width: 100%;
   min-width: 100%;
   letter-spacing: 1px;
-
   padding: 2rem 4rem 2rem 4rem;
   text-align: left;
   display: inline-block;
@@ -216,7 +216,6 @@ hr {
 .left-bio {
   display: inline-flex;
   width: 90vw;
-  border: solid 2px white;
 }
 .bio-left-section {
   background-color: rgba(0, 0, 0, 0.7);
@@ -334,8 +333,9 @@ hr {
 
 /*dont fuck with*/
 .footer {
-  background: #0a0f0f;
+  background: rgb(10, 15, 15);
   width: 100%;
+  height: auto;
   /*margin-bottom:0;*/
 }
 .footer,
@@ -343,17 +343,13 @@ hr {
   text-align: center;
   display: inline-block;
 }
-
-.footer {
-  height: auto;
-}
 .feet {
   width: 300px;
   height: 300px;
 }
 #left-foot {
   text-align: left;
-  overflow-y: hidden;
+  height: auto;
   /*display:inline-block;*/
 }
 #right-foot {

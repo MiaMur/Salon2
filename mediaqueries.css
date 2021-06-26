@@ -53,14 +53,17 @@
   .sidebar {
     width: 100vw;
   }
-  .bio-left-section {
-    width: 100vw;
+  .bio-blurb {
+    padding: 10px;
   }
   .left-bio {
     margin: 0;
     padding: 0;
     border: 2px white solid;
     width: 100%;
+  }
+  .footer-logo {
+    width: 80%;
   }
   .feet {
     width: 50%;
