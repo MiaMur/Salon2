@@ -187,8 +187,7 @@ hr {
   margin: auto;
 }
 .bio-blurb {
-  max-width: 100%;
-  min-width: 100%;
+  width: 100%;
   letter-spacing: 1px;
   padding: 2rem 4rem 2rem 4rem;
   text-align: left;
@@ -218,14 +217,14 @@ hr {
   text-align: center;
 }
 .left-bio {
-  display: inline-flex;
-  width: 90vw;
+  display: flex;
+  width: 100vw;
 }
 .bio-left-section {
   background-color: rgba(0, 0, 0, 0.7);
   margin: auto;
   border-radius: 1px;
-  width: 60vw;
+  width: 100%;
 }
 
 /*#portrait,
@@ -301,9 +300,9 @@ hr {
 }
 
 #portrait {
-  width: auto;
-  height: auto;
   width: 100%;
+  height: auto;
+
   position: relative;
   margin: 2px;
   display: inline-block;
