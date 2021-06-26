@@ -30,6 +30,22 @@
     width: 100vw;
     padding: 0;
     margin: 0;
+    margin-top: 200px;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+  .hero {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    visibility: visible;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  .hero-logo {
+    visibility: visible;
   }
   .sidebar {
     width: 100vw;
@@ -44,7 +60,7 @@
     width: 100%;
   }
   .feet {
-    width: 100vw;
+    width: 50%;
   }
   body {
     background-image: none;
@@ -60,7 +76,7 @@
     height: auto;
     z-index: -100;
     margin: 0;
-    scroll-behavior:unset;
+    scroll-behavior: unset;
   }
 }
 @media screen and (min-width: 800px) {
