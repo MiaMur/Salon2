@@ -33,6 +33,10 @@ body {
 .back-to-stylists {
   text-decoration: underline;
 }
+.promo,
+.book {
+  text-align: center;
+}
 
 .nav-header {
   display: flex;

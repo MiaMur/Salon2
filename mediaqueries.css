@@ -53,6 +53,7 @@
   .sidebar {
     width: 100vw;
   }
+
   .bio-blurb {
     padding: 10px;
   }
@@ -62,7 +63,9 @@
     border: 2px white solid;
     width: 100%;
   }
- 
+  .footer-logo {
+    width: 250px;
+  }
   .feet {
     width: 100%;
   }
